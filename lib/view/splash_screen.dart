@@ -1,5 +1,7 @@
 import 'package:alibaba_ecommerce/consts/consts.dart';
+import 'package:alibaba_ecommerce/view/auth_screen/login_screen.dart';
 import 'package:alibaba_ecommerce/view/home_screen/home.dart';
+import 'package:alibaba_ecommerce/widgets_need/applogo_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -13,8 +15,8 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   //creating a method to change screen
   changeScreen() {
-    Future.delayed(const Duration(seconds: 3), () {
-      Get.to(() => const Home());
+    Future.delayed(const Duration(seconds: 6), () {
+      Get.to(() => const LoginScreen());
     });
   }
 

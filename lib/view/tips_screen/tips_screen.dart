@@ -1,4 +1,5 @@
 import 'package:alibaba_ecommerce/consts/consts.dart';
+import 'package:alibaba_ecommerce/view/auth_screen/login_screen.dart';
 import 'package:alibaba_ecommerce/widgets_need/our_button.dart';
 
 import 'package:flutter/material.dart';
@@ -95,14 +96,12 @@ class TipsScreen extends StatelessWidget {
               ),
               10.heightBox,
               ourButton(
-                      color: redColor,
-                      title: login,
-                      textColor: whiteColor,
-                      onPress: () {})
-                  .box
-                  .roundedFull
-                  .width(context.screenWidth - 250)
-                  .make(),
+                  color: redColor,
+                  title: login,
+                  textColor: whiteColor,
+                  onPress: () {
+                    Get.to(() => LoginScreen());
+                  }).box.roundedFull.width(context.screenWidth - 250).make(),
             ],
           ),
         ),

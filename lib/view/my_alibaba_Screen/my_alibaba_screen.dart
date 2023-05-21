@@ -1,7 +1,9 @@
 import 'package:alibaba_ecommerce/consts/consts.dart';
 import 'package:alibaba_ecommerce/consts/lists.dart';
+import 'package:alibaba_ecommerce/view/auth_screen/login_screen.dart';
 import 'package:alibaba_ecommerce/widgets_need/our_button.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MyAlibabaScreen extends StatelessWidget {
   const MyAlibabaScreen({super.key});
@@ -43,7 +45,9 @@ class MyAlibabaScreen extends StatelessWidget {
                               color: redColor,
                               title: singInProcess,
                               textColor: whiteColor,
-                              onPress: () {})
+                              onPress: () {
+                                Get.to(() => const LoginScreen());
+                              })
                           .box
                           .roundedFull
                           .width(context.screenWidth - 200)

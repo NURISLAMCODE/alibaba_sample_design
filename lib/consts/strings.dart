@@ -1,22 +1,22 @@
 const appname = "Alibaba.com";
-const appversion = "Version 1.0.0";
-const credits = "Powered By Alibaba Cloud";
-const email = "Email";
-const emailHint = "admin@admin.com";
-const password = "Password";
-const passwordHint = "******";
-const retypePassword = "Retype Password";
-const name = "Name";
-const nameHint = "Nur Dev";
-const forgetPass = "Forget Password";
-const login = "Sing in";
-const singInProcess = "Sing in or register";
-const singup = "Sing up";
-const createeNewAccount = "or, create a new account";
-const loginWith = "Log in with";
-const privacyPolicy = "privacy Policy";
-const termAndCond = "Terms and Conditions";
-const alreadyHaveAcount = "Already have an account? ";
+//const appversion = "Version 1.0.0";
+const credits = "Powered By Nurislam";
+// const email = "Email";
+// const emailHint = "admin@admin.com";
+// const password = "Password";
+// const passwordHint = "******";
+// const retypePassword = "Retype Password";
+// const name = "Name";
+// const nameHint = "Nur Dev";
+// const forgetPass = "Forget Password";
+const login = "Sign in";
+const singInProcess = "Sign in or register";
+// const singup = "Sing up";
+// const createeNewAccount = "or, create a new account";
+// const loginWith = "Log in with";
+// const privacyPolicy = "privacy Policy";
+// const termAndCond = "Terms and Conditions";
+// const alreadyHaveAcount = "Already have an account? ";
 
 //home String
 

@@ -1,8 +1,10 @@
 import 'package:alibaba_ecommerce/consts/consts.dart';
+import 'package:alibaba_ecommerce/view/auth_screen/login_screen.dart';
 import 'package:alibaba_ecommerce/widgets_need/messanger_button.dart';
 
 import 'package:alibaba_ecommerce/widgets_need/our_button.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MessangerScreen extends StatelessWidget {
   const MessangerScreen({super.key});
@@ -69,14 +71,12 @@ class MessangerScreen extends StatelessWidget {
                 // ),
                 50.heightBox,
                 ourButton(
-                        color: redColor,
-                        title: login,
-                        textColor: whiteColor,
-                        onPress: () {})
-                    .box
-                    .roundedFull
-                    .width(context.screenWidth - 110)
-                    .make(),
+                    color: redColor,
+                    title: login,
+                    textColor: whiteColor,
+                    onPress: () {
+                      Get.to(() => const LoginScreen());
+                    }).box.roundedFull.width(context.screenWidth - 110).make(),
                 20.heightBox,
                 Padding(
                   padding: const EdgeInsets.all(8.0),
